@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sign In - Rento</title>
+   <!-- bootstrap css -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" href="css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+ 
+    .sign_btn a {
+      background-color: #fcd307;
+      padding: 8px 20px;
+      border-radius: 8px;
+      color: #000 !important;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .sign_btn a:hover {
+      background-color: #e1ba05;
+      color: #000 !important;
+    }
+
+    /* ===== Sign In Form ===== */
+    .signin-container {
+      background-color: #fff;
+      padding: 40px 30px;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      width: 100%;
+      max-width: 400px;
+      margin: 80px auto;
+    }
+
+    .signin-container h2 {
+      text-align: center;
+      color: #1a1a1a;
+      margin-bottom: 30px;
+      font-size: 26px;
+    }
+
+    .signin-container input {
+      width: 100%;
+      padding: 14px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 16px;
+      outline: none;
+    }
+
+    .signin-container input:focus {
+      border-color: #fcd307;
+    }
+
+    .signin-container button {
+      width: 100%;
+      padding: 14px;
+      background-color: #fcd307;
+      color: #000;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    .signin-container button:hover {
+      background-color: #e1ba05;
+    }
+
+    .signin-container p {
+      text-align: center;
+      font-size: 14px;
+      margin-top: 15px;
+    }
+
+    .signin-container a {
+      color: #fcd307;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .signin-container a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+ <header>
+         <!-- header inner -->
+         <div class="header">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                     <div class="full">
+                        <div class="center-desk">
+                           <div class="logo">
+                              <a href="index.html"><img src="images/logo.png" alt="#" /></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                     <nav class="navigation navbar navbar-expand-md navbar-dark ">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarsExample04">
+                           <ul class="navbar-nav mr-auto">
+                              <li class="nav-item">
+                                 <a class="nav-link" href="index.html"> Home  </a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="about.html">About</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="contact.html">Contact us</a>
+                              </li>
+                           </ul>
+                           <div class="sign_btn"><a href="sign.html">Sign in</a></div>
+                        </div>
+                     </nav>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+
+  <!-- Sign In Section Start -->
+  <div class="signin-container">
+    <h2>Sign In to Rento</h2>
+    <form action="#" method="post">
+      <input type="email" name="email" placeholder="Email Address" required />
+      <input type="password" name="password" placeholder="Password" required />
+      <button type="submit">Sign In</button>
+    </form>
+    <p>Don't have an account? <a href="register.html">Register here</a></p>
+  </div>
+  <!-- Sign In Section End -->
+
+  <!-- Footer Start -->
+  <footer style="background-color: #1c1c24; color: #fff; font-family: 'Poppins', sans-serif; text-align: center;">
+    <div style="background-color: #ffffff; padding: 40px 20px;">
+      <h3 style="font-size: 24px; font-weight: 700; color: #000000; margin-bottom: 10px;">CALL NOW</h3>
+      <p style="font-size: 28px; font-weight: 700; color: #3a3a3a; margin-bottom: 20px;">
+        (+1) 12345667890
+      </p>
+      <p style="font-size: 20px; font-weight: 700;">
+        <span style="color: #fcd307;">Free Multipurpose</span>
+        <span style="color: #3a3a3a;">Responsive Landing Page 2019</span>
+      </p>
+    </div>
+    <div style="background-color: #1c1c24; padding: 10px 0;">
+      <p style="font-size: 14px; color: #ccc; margin: 0;">
+        © 2019 All Rights Reserved. Design by Free Html Templates
+      </p>
+    </div>
+  </footer>
+  <!-- Footer End -->
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
